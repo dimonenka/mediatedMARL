@@ -1,0 +1,34 @@
+agent:
+  action_size: 3  # make "2" to turn mediator off
+  lr_a: 4e-4
+  lr_c: 8e-4
+  gamma: 0.99
+  entropy_coef: 1  # 3.5
+  n_hidden: 8
+  entropy_decrease: 0.0007
+
+mediator:
+  action_size: 2
+  lr_a: 8e-4
+  lr_c: 1e-3
+  gamma: 0.99
+  entropy_coef: 2
+  n_hidden: 8
+  entropy_decrease: 0.001
+  enabled: True
+
+env:
+  state_size: 2
+  batch_size: 128
+  iterations: 5000
+  min_transitions_per_update: 128
+  min_episodes_per_update: 5
+  eval_episodes: 2
+  steps_commit: 2
+  n_agents: 2
+
+
+device: "cpu"
+name: n_step
+type: test
+

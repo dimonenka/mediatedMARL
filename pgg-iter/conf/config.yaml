@@ -1,0 +1,58 @@
+defaults:
+  - _self_
+  - override hydra/hydra_logging: disabled
+  - override hydra/job_logging: disabled
+
+hydra:
+  output_subdir: null
+  run:
+    dir: .
+
+agent:
+  action_size: 3  # 9 if mediator is ON
+  lr_a: 5e-4
+  lr_c: 1e-3
+  gamma: 0.99
+  n_hidden: 16
+  entropy_coef: 0.2
+  entropy_min: 0.01 # 0.
+  entropy_steps: 10_000
+
+mediator:
+  action_size: 2
+  lr_a: 1e-3
+  lr_c: 1e-3
+  gamma: 0.99
+  n_hidden: 128
+  entropy_coef: 0.2
+  entropy_min: 0.01 # 0.
+  entropy_steps: 10_000
+  bc_coef: 0
+  bc_coef_decrease: 0
+  lambda_start: 1
+  lambda_pos_coef: 1
+  lambda_neg_coef: 1
+  lr_lambda: 0.005
+  ic: False
+  p: True
+
+env:
+  state_size: 7
+  batch_size: 100
+  iterations: 10_000
+
+  endowment: 1
+  max_steps: 10
+  multiplier: 2
+  contrib_proportion: 0.5
+
+  eval_episodes: 100
+  n_agents: 3 # !!!!!!!!!!!
+  ppo_epochs: 1
+  ppo_epochs_mediator: 1
+  k_mediator: 1
+
+mediator_on: True
+train_device: "cpu"
+inference_device: "cpu"
+name: k1-p

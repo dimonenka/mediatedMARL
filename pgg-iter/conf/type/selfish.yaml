@@ -1,0 +1,21 @@
+agent:
+  action_size: 110
+  lr_a: 4e-4
+  lr_c: 8e-4
+  gamma: 0.99
+  entropy_coef: 0.5
+  n_hidden: 16
+  entropy_decrease: 0.001 # 0.
+
+env:
+  state_size: 7
+  batch_size: 8
+  iterations: 10_000
+  min_transitions_per_update: 256
+  min_episodes_per_update: 5
+  eval_episodes: 50
+  n_agents: 16
+  ppo_epochs: 10
+
+device: "cpu"
+name: selfish

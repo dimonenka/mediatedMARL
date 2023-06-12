@@ -1,0 +1,33 @@
+agent:
+  action_size: 3  # make "2" to turn mediator off
+  lr_a: 5e-3
+  lr_c: 1e-3
+  gamma: 0.99
+  entropy_coef: 0.2  # 3.5
+  n_hidden: 8
+  entropy_decrease: 1e-5
+
+mediator:
+  action_size: 2
+  lr_a: 1e-3
+  lr_c: 1e-3
+  gamma: 0.99
+  entropy_coef: 0.1
+  n_hidden: 32
+  entropy_decrease: 0.
+  reg_weight: 1
+  enabled: True
+
+env:
+  state_size: 2
+  batch_size: 32
+  iterations: 10_000
+  min_transitions_per_update: 128
+  min_episodes_per_update: 5
+  eval_episodes: 50
+  n_agents: 3
+  coef: 0.5
+
+device: "cpu"
+name: pgg_td
+type: test

@@ -1,0 +1,303 @@
+{
+    "children": [
+        {
+            "object": "block",
+            "id": "77ff67b5-3885-40a7-952c-4576a51b71b1",
+            "created_time": "2022-02-16T15:01:00.000Z",
+            "last_edited_time": "2022-02-16T15:18:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "text": []
+            }
+        },
+        {
+            "object": "block",
+            "id": "b2ef883a-d9e9-475a-9a09-79bd686de548",
+            "created_time": "2022-02-16T15:10:00.000Z",
+            "last_edited_time": "2022-02-16T15:10:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "text": [
+                    {
+                        "type": "mention",
+                        "mention": {
+                            "type": "date",
+                            "date": {
+                                "start": "2022-02-16T18:10:00.000+00:00",
+                                "end": null,
+                                "time_zone": null
+                            }
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "2022-02-16T18:10:00.000+00:00 → ",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "  \n——",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "  \n——",
+                        "href": null
+                    }
+                ]
+            }
+        },
+        {
+            "object": "block",
+            "id": "68c738a7-3681-4c59-8e9e-bf5cd073671a",
+            "created_time": "2022-02-16T15:10:00.000Z",
+            "last_edited_time": "2022-02-16T15:22:00.000Z",
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "wandb link: ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": true,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "wandb link: ",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "http://govno.app",
+                            "link": {
+                                "url": "http://govno.app"
+                            }
+                        },
+                        "annotations": {
+                            "bold": true,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "http://govno.app",
+                        "href": "http://govno.app"
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " \n",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " \n",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Контекст:",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": true,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Контекст:",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " \n",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " \n",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Цель:",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": true,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Цель:",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " \n",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " \n",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Результаты:",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": true,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Результаты:",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " \n",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " \n",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Выводы:",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": true,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Выводы:",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " \n",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " \n",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Appendix:",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": true,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Appendix:",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " ",
+                        "href": null
+                    }
+                ]
+            }
+        }
+    ]
+}
